@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="shortcut icon" href="/images/favicon-16x16.png" type="image/x-icon"/>
+    <script defer src="/js/script.js"></script>
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <main class="main">
+        <div class="main-container">
+            <div class="main-content">
+                <label class="legend-input" for="pokemon-search">Pesquisar pokemon &#187;</label>
+                <form class="filter">
+                  <input type="search" name="pokemon" id="pokemon" required placeholder="Pesquise seu pokemon" autocomplete="off">
+                  <i class="ri-search-2-line search-item"></i>
+                </form>
+                <div class="local-pokemon">
+                    <div class="pokemon">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/25.gif" alt="pokemon" class="pokemon-image">
+                    </div>
+                    <div class="data-pokemon">
+                        <h1 class="pokemon-name">Pikachu</h1>
+                        <ul class="descriptions">
+                            <li>Id: <span class="pokemon-id"></span></li>
+                            <li>Type: <span class="pokemon-tipe"></span></li>
+                        </ul>
+                        <div class="btns">
+                          <button class="btn-prev"><i class="ri-arrow-left-s-line"></i></button>
+                          <button class="btn-next"><i class="ri-arrow-right-s-line"></i></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </main>
+  </body>
+</html>
