@@ -1,8 +1,11 @@
 
-
 # Pokedex
 
-Projeto desenvolvido com Express no Node.js visando o exercicio do consumo de dados da API pokemon.io
+![image](https://github.com/RafaGui/Pokedex/assets/75204221/8f856bbf-0c89-4e1b-9f48-bc28ffb60459)
+
+Projeto desenvolvido com Express no Node.js visando o exercicio do consumo de dados da API pokemon.io, layout totalmente responsivo adaptável a diferentes telas.
+
+![image](https://github.com/RafaGui/Pokedex/assets/75204221/1d350bfe-7eb6-4aa1-82f2-9e4c37e05124)
 
 ## 🚀 Começando
 
